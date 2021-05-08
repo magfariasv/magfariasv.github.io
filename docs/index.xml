@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>1. Encargo 1</title>
+      <title>01. Encargo 1</title>
       <link>https://magfariasv.github.io/docs/1.-encargo_1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>2. Encargo 2</title>
+      <title>02. Encargo 2</title>
       <link>https://magfariasv.github.io/docs/2.-encargo_2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -35,7 +35,7 @@
     </item>
     
     <item>
-      <title>3. Encargo 3</title>
+      <title>03. Encargo 3</title>
       <link>https://magfariasv.github.io/docs/3.-encargo_3/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -44,7 +44,7 @@
     </item>
     
     <item>
-      <title>4. Encargo 4</title>
+      <title>04. Encargo 4</title>
       <link>https://magfariasv.github.io/docs/4.-encargo_4/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -53,7 +53,7 @@
     </item>
     
     <item>
-      <title>5. Ejercicio 1</title>
+      <title>05. Ejercicio 1</title>
       <link>https://magfariasv.github.io/docs/5.-ejercicio_1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -62,7 +62,7 @@
     </item>
     
     <item>
-      <title>6. Ejercicio 2</title>
+      <title>06. Ejercicio 2</title>
       <link>https://magfariasv.github.io/docs/6.-ejercicio_2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -71,7 +71,7 @@
     </item>
     
     <item>
-      <title>7. Ejercicio 3</title>
+      <title>07. Ejercicio 3</title>
       <link>https://magfariasv.github.io/docs/7.-ejercicio_3/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -80,12 +80,39 @@
     </item>
     
     <item>
-      <title>8. Caso de estudio 1</title>
+      <title>08. Caso de estudio 1</title>
       <link>https://magfariasv.github.io/docs/8.-caso-de-estudio_1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://magfariasv.github.io/docs/8.-caso-de-estudio_1/</guid>
-      <description>Primera investigación electromovilidad examen.</description>
+      <description>Primera investigación examen electromovilidad.</description>
+    </item>
+    
+    <item>
+      <title>09. Caso de estudio 2</title>
+      <link>https://magfariasv.github.io/docs/9.-caso-de-estudio_2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://magfariasv.github.io/docs/9.-caso-de-estudio_2/</guid>
+      <description>Segunda investigación examen electromovilidad.</description>
+    </item>
+    
+    <item>
+      <title>10. Caso de estudio 3</title>
+      <link>https://magfariasv.github.io/docs/10.-caso-de-estudio_3/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://magfariasv.github.io/docs/10.-caso-de-estudio_3/</guid>
+      <description>Tercera investigación examen electromovilidad.</description>
+    </item>
+    
+    <item>
+      <title>11. Ejercicio 4</title>
+      <link>https://magfariasv.github.io/docs/11.-ejercicio_4/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://magfariasv.github.io/docs/11.-ejercicio_4/</guid>
+      <description>Tercera investigación examen electromovilidad.</description>
     </item>
     
     <item>
