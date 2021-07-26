@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>MAGDALENA FARÍAS</title>
+<meta name="description" content="Describe your website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://magfariasv.github.io/taller-productos/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://magfariasv.github.io/taller-productos/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://magfariasv.github.io/taller-productos/css/owl.carousel.css">
+<link rel="stylesheet" href="https://magfariasv.github.io/taller-productos/css/owl.theme.css">
+
+
+  <link href="https://magfariasv.github.io/taller-productos/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://magfariasv.github.io/taller-productos/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://magfariasv.github.io/taller-productos/img/1.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://magfariasv.github.io/taller-productos/">MAGDALENA FARÍAS</a></h1>
+    
+      <p class="sidebar-p">Alumna de la universidad Adolfo Ibáñez, generación 2016, licenciada en diseño 2020 y actualmente alumna de Magíster en Innovación y Diseño. Este es mi sitio web personal para la documentación del Taller de Productos 2021, donde subiré mis proyectos y trabajos.</p>
+    
+      <p class="sidebar-p">Santiago de Chile</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://magfariasv.github.io/taller-productos/portfolio/">Inicio</a></li>
+      
+        <li><a href="https://magfariasv.github.io/taller-productos/about/">Sobre mí</a></li>
+      
+        <li><a href="https://magfariasv.github.io/taller-productos/contact/">Contacto</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  
+  
+  <a href="mailto:magfarias@alumnos.uai.cl" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  
+  
+  
+  
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2021 Magdalena Farías |
+        
+        Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://magfariasv.github.io/taller-productos/">MAGDALENA FARÍAS</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>TRABAJO 04: BLINK, FADE Y BUTTON</h1>
+         <hr>
+<p>Para este trabajo se nos pidió hacer los ejercicios &ldquo;blink&rdquo;, &ldquo;fade&rdquo; y &ldquo;button&rdquo; como primer acercamiento al Arduino.</p>
+<hr>
+<h1 id="ejercicios-en-arduino">Ejercicios en arduino</h1>
+<h2 id="ejercicio-1-blink">Ejercicio 1: Blink</h2>
+<h4 id="esquemático">Esquemático:</h4>
+<p><img src="../../img/blink.png" alt="alt text"></p>
+<h4 id="código">Código:</h4>
+<p>/*
+Blink
+Turns on an LED on for one second, then off for one second, repeatedly.</p>
+<p>This example code is in the public domain.
+*/</p>
+<p>// Pin 13 has an LED connected on most Arduino boards.
+// give it a name:
+int lednaranjo1 = 13;
+int ledazul1 = 12;
+int lednaranjo2 = 11;
+int ledazul2 = 10;</p>
+<p>// the setup routine runs once when you press reset:
+void setup() {             <br>
+// initialize the digital pin as an output.
+pinMode(lednaranjo1, OUTPUT);
+pinMode(ledazul1, OUTPUT);
+pinMode(lednaranjo2, OUTPUT);
+pinMode(ledazul2, OUTPUT);</p>
+<p>}</p>
+<p>// the loop routine runs over and over again forever:
+void loop() {
+digitalWrite(lednaranjo1, HIGH);   // turn the LED on (HIGH is the voltage level)
+delay(1000);
+digitalWrite(lednaranjo1, LOW);    // turn the LED off by making the voltage LOW
+delay(1000);               // wait for a second  // wait for a second
+digitalWrite(ledazul1, HIGH);<br>
+delay(1000);
+digitalWrite(ledazul1, LOW);    // turn the LED off by making the voltage LOW
+delay(1000);               // wait for a second
+digitalWrite(lednaranjo2, HIGH);<br>
+delay(1000);
+digitalWrite(lednaranjo2, LOW);    // turn the LED off by making the voltage LOW
+delay(1000);               // wait for a second
+digitalWrite(ledazul2, HIGH);<br>
+delay(1000);
+digitalWrite(ledazul2, LOW);    // turn the LED off by making the voltage LOW
+delay(1000);               // wait for a second</p>
+<hr>
+<h2 id="ejercicio-2-fade">Ejercicio 2: Fade</h2>
+<h4 id="esquemático-1">Esquemático:</h4>
+<p><img src="../../img/fade.png" alt="alt text"></p>
+<h4 id="código-1">Código:</h4>
+<p>/*
+Fade</p>
+<p>This example shows how to fade an LED on pin 9
+using the analogWrite() function.</p>
+<p>This example code is in the public domain.
+*/</p>
+<p>int lednaranjo2 = 11;
+int ledazul2 = 10;
+int brightness = 0;    // how bright the LED is
+int fadeAmount = 5;    // how many points to fade the LED by</p>
+<p>// the setup routine runs once when you press reset:
+void setup()  {
+// declare pin 9 to be an output:
+pinMode(lednaranjo2, OUTPUT);
+pinMode(ledazul2, OUTPUT);
+}</p>
+<p>// the loop routine runs over and over again forever:
+void loop()  {
+// set the brightness of pin 9:
+analogWrite(lednaranjo2, brightness);
+analogWrite(ledazul2, brightness);</p>
+<p>// change the brightness for next time through the loop:
+brightness = brightness + fadeAmount;</p>
+<p>// reverse the direction of the fading at the ends of the fade:
+if (brightness == 0 || brightness == 255) {
+fadeAmount = -fadeAmount ;
+}  <br>
+// wait for 30 milliseconds to see the dimming effect <br>
+delay(40);                         <br>
+}</p>
+<h2 id="ejercicio-3-button">Ejercicio 3: Button</h2>
+<h4 id="esquemático-2">Esquemático:</h4>
+<p><img src="../../img/button.png" alt="alt text"></p>
+<h4 id="código-2">Código:</h4>
+<p>/*
+Button</p>
+<p>This example code is in the public domain.</p>
+<p>// constants won&rsquo;t change. They&rsquo;re used here to
+// set pin numbers:
+const int buttonPin = 7;     // the number of the pushbutton pin
+const int ledPin =  13;      // the number of the LED pin
+int val;
+/ variables will change:
+int buttonState = 0;         // variable for reading the pushbutton status</p>
+<p>void setup() {
+// initialize the LED pin as an output:
+pinMode(ledPin, OUTPUT);   <br>
+// initialize the pushbutton pin as an input:
+pinMode(buttonPin, INPUT);  <br>
+}</p>
+<p>void loop(){
+// read the state of the pushbutton value:
+buttonState = digitalRead(buttonPin);</p>
+<p>// check if the pushbutton is pressed.
+// if it is, the buttonState is HIGH:
+if (buttonState == HIGH) {  <br>
+// turn LED on: <br>
+digitalWrite(ledPin, HIGH);<br>
+}
+else {
+// turn LED off:
+digitalWrite(ledPin, LOW);
+}
+}</p>
+<h2 id="video">Video</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/bI-v0UrGvj4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://magfariasv.github.io/taller-productos/js/jquery.min.js"></script>
+<script src="https://magfariasv.github.io/taller-productos/js/bootstrap.min.js"></script>
+<script src="https://magfariasv.github.io/taller-productos/js/jquery.cookie.js"> </script>
+<script src="https://magfariasv.github.io/taller-productos/js/ekko-lightbox.js"></script>
+<script src="https://magfariasv.github.io/taller-productos/js/jquery.scrollTo.min.js"></script>
+<script src="https://magfariasv.github.io/taller-productos/js/masonry.pkgd.min.js"></script>
+<script src="https://magfariasv.github.io/taller-productos/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://magfariasv.github.io/taller-productos/js/owl.carousel.min.js"></script>
+<script src="https://magfariasv.github.io/taller-productos/js/front.js"></script>
+
+
+
+</body>
+</html>
